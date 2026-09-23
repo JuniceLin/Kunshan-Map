@@ -1,0 +1,2873 @@
+{
+  "metadata": {
+    "title": "Kunshan Cultural Map — source-grounded working dataset",
+    "version": "1.0.0",
+    "updated": "2026-09-23",
+    "geography": "Kunshan, Jiangsu, China",
+    "categories": [
+      "Places",
+      "Artifacts",
+      "Food",
+      "Traditions",
+      "Stories"
+    ],
+    "method": "Curated synthesis of official Kunshan public records and UNESCO documentation. Raw official name lists are retained separately.",
+    "spatialNote": "Every entity has a geographic anchor and a locationPrecision label. Town, district, regional and associated-site anchors are not surveyed entrances and must not be used as navigation coordinates.",
+    "imageNote": "The web prototype uses cached real photographs from cited government pages and Wikimedia Commons. A contextual place photograph may be shared by multiple related records; no AI-generated historical object or place is presented as documentary evidence.",
+    "evidenceBoundary": "The dataset does not claim that visitors generally overlook lesser-known places, that current promotion is ineffective, or that the interface improves understanding. Those remain research hypotheses requiring evaluation."
+  },
+  "counts": {
+    "fragments": 82,
+    "relations": 67,
+    "sources": 13
+  },
+  "fragments": [
+    {
+      "id": "tinglin_garden",
+      "category": "Places",
+      "name": "Tinglin Garden",
+      "nameZh": "亭林园",
+      "short": "Tinglin Garden",
+      "area": "Yushan",
+      "town": "Yushan",
+      "lat": 31.3864,
+      "lng": 120.9486,
+      "locationPrecision": "specific-site",
+      "imageKey": "tinglin",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-tinglin"
+      ],
+      "summary": "Central Kunshan garden named for Gu Yanwu and associated with Kunshan's three treasures.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/tinglin.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Tinglin Garden"
+    },
+    {
+      "id": "forest_park",
+      "category": "Places",
+      "name": "Urban Ecological Forest Park",
+      "nameZh": "昆山城市生态森林公园",
+      "short": "Urban Ecological Forest Park",
+      "area": "Yushan",
+      "town": "Yushan",
+      "lat": 31.4012,
+      "lng": 120.9099,
+      "locationPrecision": "specific-site",
+      "imageKey": "forest",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A large urban wetland and public park northwest of central Kunshan.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/forest.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Forest Park"
+    },
+    {
+      "id": "opera_museum",
+      "category": "Places",
+      "name": "Opera Hundred Plays Museum",
+      "nameZh": "昆山戏曲百戏博物馆",
+      "short": "Opera Hundred Plays Museum",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.4543,
+      "lng": 120.8802,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "bacheng",
+      "sourceIds": [
+        "ks-opera-museum",
+        "ks-villages"
+      ],
+      "summary": "A museum presenting the history and diversity of Chinese opera genres.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/bacheng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Bacheng"
+    },
+    {
+      "id": "zhouzhuang_town",
+      "category": "Places",
+      "name": "Zhouzhuang Ancient Town",
+      "nameZh": "周庄古镇",
+      "short": "Zhouzhuang Ancient Town",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1168,
+      "lng": 120.8468,
+      "locationPrecision": "specific-site",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "Historic water town with canals, bridges and riverside residences.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "twin_bridges",
+      "category": "Places",
+      "name": "Twin Bridges",
+      "nameZh": "双桥",
+      "short": "Twin Bridges",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1149,
+      "lng": 120.8478,
+      "locationPrecision": "specific-site",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A paired bridge landmark within Zhouzhuang's canal network.",
+      "placeId": "zhouzhuang_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "zhang_hall",
+      "category": "Places",
+      "name": "Zhang's Hall",
+      "nameZh": "张厅",
+      "short": "Zhang's Hall",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1162,
+      "lng": 120.8471,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A recommended historic residence in Zhouzhuang.",
+      "placeId": "zhouzhuang_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "shen_hall",
+      "category": "Places",
+      "name": "Shen's Hall",
+      "nameZh": "沈厅",
+      "short": "Shen's Hall",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1155,
+      "lng": 120.8458,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A recommended historic residence associated with the Shen family.",
+      "placeId": "zhouzhuang_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "zhenfeng_street",
+      "category": "Places",
+      "name": "Zhenfeng Cultural Street",
+      "nameZh": "贞丰文化街",
+      "short": "Zhenfeng Cultural Street",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.117,
+      "lng": 120.8462,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A named cultural street in Zhouzhuang.",
+      "placeId": "zhouzhuang_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "shen_residence",
+      "category": "Places",
+      "name": "Former Residence of Shen Wansan",
+      "nameZh": "沈万三故居",
+      "short": "Former Residence of Shen Wansan",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1158,
+      "lng": 120.8453,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A visitor site interpreting Shen Wansan in Zhouzhuang.",
+      "placeId": "zhouzhuang_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "chengxu_temple",
+      "category": "Places",
+      "name": "Chengxu Taoist Temple",
+      "nameZh": "澄虚道院",
+      "short": "Chengxu Taoist Temple",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1178,
+      "lng": 120.849,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A Taoist temple listed among Zhouzhuang's recommended sites.",
+      "placeId": "zhouzhuang_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "old_opera_stage",
+      "category": "Places",
+      "name": "Old Drama Stage",
+      "nameZh": "古戏台",
+      "short": "Old Drama Stage",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1174,
+      "lng": 120.8492,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A performance site in Zhouzhuang's historic area.",
+      "placeId": "zhouzhuang_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "jinxi_town",
+      "category": "Places",
+      "name": "Jinxi Ancient Town",
+      "nameZh": "锦溪古镇",
+      "short": "Jinxi Ancient Town",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.1787,
+      "lng": 120.9076,
+      "locationPrecision": "specific-site",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "Water town surrounded by lakes and known for folk museums.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "ancient_tile_museum",
+      "category": "Places",
+      "name": "Chinese Ancient Brick and Tile Museum",
+      "nameZh": "中国古砖瓦博物馆",
+      "short": "Chinese Ancient Brick and Tile Museum",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.1782,
+      "lng": 120.9066,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-culture-policy"
+      ],
+      "summary": "Museum interpreting historic bricks, tiles and kiln culture.",
+      "placeId": "jinxi_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "clay_sculpture_hall",
+      "category": "Places",
+      "name": "Maruote Clay Sculpture Hall",
+      "nameZh": "马若特泥塑馆",
+      "short": "Maruote Clay Sculpture Hall",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.179,
+      "lng": 120.9069,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A folk-museum venue dedicated to clay sculpture.",
+      "placeId": "jinxi_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "jinxi_ballad_center",
+      "category": "Places",
+      "name": "Jinxi Ballad Art Center",
+      "nameZh": "锦溪宣卷艺术中心",
+      "short": "Jinxi Ballad Art Center",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.1784,
+      "lng": 120.908,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-culture-policy"
+      ],
+      "summary": "A venue connected with Jinxi narrative-singing culture.",
+      "placeId": "jinxi_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "lianchi_temple",
+      "category": "Places",
+      "name": "Lianchi Temple",
+      "nameZh": "莲池禅院",
+      "short": "Lianchi Temple",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.1779,
+      "lng": 120.9091,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A temple listed among Jinxi's recommended sites.",
+      "placeId": "jinxi_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "concubine_tomb",
+      "category": "Places",
+      "name": "Concubine's Water Tomb",
+      "nameZh": "陈妃水冢",
+      "short": "Concubine's Water Tomb",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.1796,
+      "lng": 120.9058,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A water-set memorial site central to one of Jinxi's best-known narratives.",
+      "placeId": "jinxi_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "wenchang_pavilion",
+      "category": "Places",
+      "name": "Wenchang Pavilion",
+      "nameZh": "文昌阁",
+      "short": "Wenchang Pavilion",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.1772,
+      "lng": 120.9075,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A pavilion in the Jinxi historic area.",
+      "placeId": "jinxi_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "zhudian_kiln",
+      "category": "Places",
+      "name": "Zhudian Ancient Brick Kiln",
+      "nameZh": "祝甸古砖窑",
+      "short": "Zhudian Ancient Brick Kiln",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.206,
+      "lng": 120.8898,
+      "locationPrecision": "specific-site",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A former kiln adapted as a museum of local brick-making history.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "qiandeng_town",
+      "category": "Places",
+      "name": "Qiandeng Ancient Town",
+      "nameZh": "千灯古镇",
+      "short": "Qiandeng Ancient Town",
+      "area": "Qiandeng",
+      "town": "Qiandeng",
+      "lat": 31.26,
+      "lng": 121.0032,
+      "locationPrecision": "specific-site",
+      "imageKey": "qiandeng",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "Historic town associated with Gu Yanwu, Gu Jian, Kunqu and a long flagstone street.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/qiandeng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Qiandeng"
+    },
+    {
+      "id": "stone_street",
+      "category": "Places",
+      "name": "Ancient Flagstone Street",
+      "nameZh": "古石板街",
+      "short": "Ancient Flagstone Street",
+      "area": "Qiandeng",
+      "town": "Qiandeng",
+      "lat": 31.2593,
+      "lng": 121.0025,
+      "locationPrecision": "specific-site",
+      "imageKey": "qiandeng",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A 1,500-metre street lined with historic residences.",
+      "placeId": "qiandeng_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/qiandeng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Qiandeng"
+    },
+    {
+      "id": "gu_yanwu_residence",
+      "category": "Places",
+      "name": "Former Residence of Gu Yanwu",
+      "nameZh": "顾炎武故居",
+      "short": "Former Residence of Gu Yanwu",
+      "area": "Qiandeng",
+      "town": "Qiandeng",
+      "lat": 31.2577,
+      "lng": 121.0004,
+      "locationPrecision": "specific-site",
+      "imageKey": "qiandeng",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-heritage"
+      ],
+      "summary": "Nationally protected former residence linked to scholar Gu Yanwu.",
+      "placeId": "qiandeng_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/qiandeng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Qiandeng"
+    },
+    {
+      "id": "gu_jian_memorial",
+      "category": "Places",
+      "name": "Gu Jian Memorial Hall",
+      "nameZh": "顾坚纪念馆",
+      "short": "Gu Jian Memorial Hall",
+      "area": "Qiandeng",
+      "town": "Qiandeng",
+      "lat": 31.2607,
+      "lng": 121.002,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "qiandeng",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A memorial venue presenting Gu Jian and Kunqu origins.",
+      "placeId": "qiandeng_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/qiandeng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Qiandeng"
+    },
+    {
+      "id": "qinfeng_tower",
+      "category": "Places",
+      "name": "Qinfeng Tower and Yanfu Temple",
+      "nameZh": "秦峰塔与延福寺",
+      "short": "Qinfeng Tower and Yanfu Temple",
+      "area": "Qiandeng",
+      "town": "Qiandeng",
+      "lat": 31.2614,
+      "lng": 121.0047,
+      "locationPrecision": "specific-site",
+      "imageKey": "qiandeng",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-heritage"
+      ],
+      "summary": "A nationally protected pagoda and temple complex in Qiandeng.",
+      "placeId": "qiandeng_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/qiandeng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Qiandeng"
+    },
+    {
+      "id": "qiandeng_hall",
+      "category": "Places",
+      "name": "Qiandeng Hall",
+      "nameZh": "千灯馆",
+      "short": "Qiandeng Hall",
+      "area": "Qiandeng",
+      "town": "Qiandeng",
+      "lat": 31.2599,
+      "lng": 121.0038,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "qiandeng",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A recommended cultural venue in Qiandeng.",
+      "placeId": "qiandeng_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/qiandeng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Qiandeng"
+    },
+    {
+      "id": "bacheng_town",
+      "category": "Places",
+      "name": "Bacheng Ancient Town",
+      "nameZh": "巴城老街",
+      "short": "Bacheng Ancient Town",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.454,
+      "lng": 120.8796,
+      "locationPrecision": "specific-site",
+      "imageKey": "bacheng",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "Historic town area beside Yangcheng Lake.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/bacheng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Bacheng"
+    },
+    {
+      "id": "bajie_park",
+      "category": "Places",
+      "name": "Bajie Park",
+      "nameZh": "巴解园",
+      "short": "Bajie Park",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.4517,
+      "lng": 120.868,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "bacheng",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A Bacheng destination connected with local crab culture.",
+      "placeId": "bacheng_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/bacheng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Bacheng"
+    },
+    {
+      "id": "chongning_temple",
+      "category": "Places",
+      "name": "Chongning Temple",
+      "nameZh": "崇宁古寺",
+      "short": "Chongning Temple",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.4547,
+      "lng": 120.8812,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "bacheng",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A temple listed among Bacheng's visitor destinations.",
+      "placeId": "bacheng_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/bacheng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Bacheng"
+    },
+    {
+      "id": "yangcheng_wetland",
+      "category": "Places",
+      "name": "Yangcheng Lake Wetland Park",
+      "nameZh": "阳澄湖湿地公园",
+      "short": "Yangcheng Lake Wetland Park",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.432,
+      "lng": 120.828,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "bacheng",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "Wetland destination beside Yangcheng Lake.",
+      "placeId": "bacheng_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/bacheng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Bacheng"
+    },
+    {
+      "id": "chaodun_site",
+      "category": "Places",
+      "name": "Chaodun Archaeological Site",
+      "nameZh": "绰墩遗址",
+      "short": "Chaodun Archaeological Site",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.408,
+      "lng": 120.866,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "bacheng",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-heritage"
+      ],
+      "summary": "A nationally protected archaeological site.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/bacheng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Bacheng"
+    },
+    {
+      "id": "dianshan_lake",
+      "category": "Places",
+      "name": "Dianshan Lake",
+      "nameZh": "淀山湖",
+      "short": "Dianshan Lake",
+      "area": "Dianshanhu",
+      "town": "Dianshanhu",
+      "lat": 31.16,
+      "lng": 121.001,
+      "locationPrecision": "landscape anchor",
+      "imageKey": "tianfu",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A major lake landscape shaping the identity of Dianshanhu town.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/tianfu.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Tianfu Ecological Garden"
+    },
+    {
+      "id": "liurudun",
+      "category": "Places",
+      "name": "Liurudun",
+      "nameZh": "六如墩",
+      "short": "Liurudun",
+      "area": "Dianshanhu",
+      "town": "Dianshanhu",
+      "lat": 31.147,
+      "lng": 121.026,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "tianfu",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-place-names"
+      ],
+      "summary": "A named Dianshanhu destination also included in the protected place-name list.",
+      "placeId": "dianshan_lake",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/tianfu.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Tianfu Ecological Garden"
+    },
+    {
+      "id": "tianfu_garden",
+      "category": "Places",
+      "name": "Tianfu Ecological Garden",
+      "nameZh": "天福生态园",
+      "short": "Tianfu Ecological Garden",
+      "area": "Huaqiao",
+      "town": "Huaqiao",
+      "lat": 31.295,
+      "lng": 121.134,
+      "locationPrecision": "specific-site",
+      "imageKey": "tianfu",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "An ecological and agricultural visitor area centred on an old settlement.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/tianfu.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Tianfu Ecological Garden"
+    },
+    {
+      "id": "zhaoling_site",
+      "category": "Places",
+      "name": "Zhaoling Mountain Site",
+      "nameZh": "赵陵山遗址",
+      "short": "Zhaoling Mountain Site",
+      "area": "Zhangpu",
+      "town": "Zhangpu",
+      "lat": 31.242,
+      "lng": 120.92,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "forest",
+      "sourceIds": [
+        "ks-heritage"
+      ],
+      "summary": "A nationally protected archaeological site in Kunshan.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/forest.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Forest Park"
+    },
+    {
+      "id": "yuyantang",
+      "category": "Places",
+      "name": "Yuyan Hall",
+      "nameZh": "玉燕堂",
+      "short": "Yuyan Hall",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.116,
+      "lng": 120.846,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-heritage"
+      ],
+      "summary": "A nationally protected historic hall.",
+      "placeId": "zhouzhuang_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "jingyetang",
+      "category": "Places",
+      "name": "Jingye Hall",
+      "nameZh": "敬业堂",
+      "short": "Jingye Hall",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1165,
+      "lng": 120.847,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-heritage"
+      ],
+      "summary": "A nationally protected historic hall.",
+      "placeId": "zhouzhuang_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "wufeng_flour_mill",
+      "category": "Places",
+      "name": "Former Wufeng Flour Mill",
+      "nameZh": "五丰面粉厂旧址",
+      "short": "Former Wufeng Flour Mill",
+      "area": "Yushan",
+      "town": "Yushan",
+      "lat": 31.374,
+      "lng": 120.96,
+      "locationPrecision": "district anchor",
+      "imageKey": "tinglin",
+      "sourceIds": [
+        "ks-heritage",
+        "ks-place-names"
+      ],
+      "summary": "A provincially protected industrial heritage site.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/tinglin.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Tinglin Garden"
+    },
+    {
+      "id": "jishan_bridge",
+      "category": "Places",
+      "name": "Jishan Bridge",
+      "nameZh": "集善桥",
+      "short": "Jishan Bridge",
+      "area": "Huaqiao",
+      "town": "Huaqiao",
+      "lat": 31.311,
+      "lng": 121.1,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "tianfu",
+      "sourceIds": [
+        "ks-heritage"
+      ],
+      "summary": "A provincially protected historic bridge.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/tianfu.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Tianfu Ecological Garden"
+    },
+    {
+      "id": "yulong_bridge",
+      "category": "Places",
+      "name": "Yulong Bridge",
+      "nameZh": "玉龙桥",
+      "short": "Yulong Bridge",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1135,
+      "lng": 120.8495,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-heritage"
+      ],
+      "summary": "A provincially protected historic bridge.",
+      "placeId": "zhouzhuang_town",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "xugongqiao_trial",
+      "category": "Places",
+      "name": "Xugongqiao Rural Reform Experimental Area",
+      "nameZh": "徐公桥乡村改进试验区旧址",
+      "short": "Xugongqiao Rural Reform Experimental Area",
+      "area": "Huaqiao",
+      "town": "Huaqiao",
+      "lat": 31.324,
+      "lng": 121.13,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "tianfu",
+      "sourceIds": [
+        "ks-heritage",
+        "ks-place-names"
+      ],
+      "summary": "A provincially protected rural-reform historic site.",
+      "placeId": "",
+      "type": "Places",
+      "motif": "地",
+      "image": "assets/cards/tianfu.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Tianfu Ecological Garden"
+    },
+    {
+      "id": "kunshan_stone",
+      "category": "Artifacts",
+      "name": "Kunshan Stone",
+      "nameZh": "昆石",
+      "short": "Kunshan Stone",
+      "area": "Yushan",
+      "town": "Yushan",
+      "lat": 31.3864,
+      "lng": 120.9486,
+      "locationPrecision": "associated-site anchor",
+      "imageKey": "tinglin",
+      "sourceIds": [
+        "ks-tinglin",
+        "ks-tourism"
+      ],
+      "summary": "One of the three treasures displayed and interpreted at Tinglin Garden.",
+      "placeId": "tinglin_garden",
+      "type": "Artifacts",
+      "motif": "器",
+      "image": "assets/cards/tinglin.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Tinglin Garden"
+    },
+    {
+      "id": "ancient_tiles",
+      "category": "Artifacts",
+      "name": "Ancient Bricks and Tiles",
+      "nameZh": "古砖瓦",
+      "short": "Ancient Bricks and Tiles",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.1782,
+      "lng": 120.9066,
+      "locationPrecision": "associated-site anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-culture-policy"
+      ],
+      "summary": "Architectural materials preserved and interpreted through Jinxi's museum collections.",
+      "placeId": "ancient_tile_museum",
+      "type": "Artifacts",
+      "motif": "器",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "kiln_bricks",
+      "category": "Artifacts",
+      "name": "Zhudian Kiln Bricks",
+      "nameZh": "祝甸窑砖",
+      "short": "Zhudian Kiln Bricks",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.206,
+      "lng": 120.8898,
+      "locationPrecision": "associated-site anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "Brick products and kiln traces used to interpret local production history.",
+      "placeId": "zhudian_kiln",
+      "type": "Artifacts",
+      "motif": "器",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "opera_costume",
+      "category": "Artifacts",
+      "name": "Opera Costume Collection",
+      "nameZh": "戏曲服饰藏品",
+      "short": "Opera Costume Collection",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.4543,
+      "lng": 120.8802,
+      "locationPrecision": "associated-site anchor",
+      "imageKey": "kunqu",
+      "sourceIds": [
+        "ks-opera-museum"
+      ],
+      "summary": "Performance costumes represented within the Opera Hundred Plays Museum collection.",
+      "placeId": "opera_museum",
+      "type": "Artifacts",
+      "motif": "器",
+      "image": "assets/cards/kunqu.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Kunqu_-_Dan.jpg",
+      "imageCredit": "Wikimedia Commons — Kunqu performer photograph"
+    },
+    {
+      "id": "opera_objects",
+      "category": "Artifacts",
+      "name": "Opera Objects and Documents",
+      "nameZh": "戏曲器物与文献",
+      "short": "Opera Objects and Documents",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.4543,
+      "lng": 120.8802,
+      "locationPrecision": "associated-site anchor",
+      "imageKey": "kunqu",
+      "sourceIds": [
+        "ks-opera-museum"
+      ],
+      "summary": "Part of a museum collection built from more than 4,000 donated objects.",
+      "placeId": "opera_museum",
+      "type": "Artifacts",
+      "motif": "器",
+      "image": "assets/cards/kunqu.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Kunqu_-_Dan.jpg",
+      "imageCredit": "Wikimedia Commons — Kunqu performer photograph"
+    },
+    {
+      "id": "clay_sculpture",
+      "category": "Artifacts",
+      "name": "Clay Sculpture",
+      "nameZh": "泥塑",
+      "short": "Clay Sculpture",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.179,
+      "lng": 120.9069,
+      "locationPrecision": "associated-site anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "Material folk art interpreted at the Maruote Clay Sculpture Hall.",
+      "placeId": "clay_sculpture_hall",
+      "type": "Artifacts",
+      "motif": "器",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "paper_cut_object",
+      "category": "Artifacts",
+      "name": "Kunshan Paper-cut Work",
+      "nameZh": "昆山剪纸作品",
+      "short": "Kunshan Paper-cut Work",
+      "area": "Lujia",
+      "town": "Lujia",
+      "lat": 31.319,
+      "lng": 121.051,
+      "locationPrecision": "town anchor",
+      "imageKey": "qiandeng",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "summary": "A finished paper-cut work associated with the locally listed craft tradition.",
+      "placeId": "lujia_papercut",
+      "type": "Artifacts",
+      "motif": "器",
+      "image": "assets/cards/qiandeng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Qiandeng"
+    },
+    {
+      "id": "rope_knot_object",
+      "category": "Artifacts",
+      "name": "Kunshan Knotwork Object",
+      "nameZh": "昆山绳结作品",
+      "short": "Kunshan Knotwork Object",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.4528,
+      "lng": 120.884,
+      "locationPrecision": "town anchor",
+      "imageKey": "bacheng",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "summary": "A hand-woven knotwork object created from recombined practical Chinese-knot structures.",
+      "placeId": "kunshan_rope_knot",
+      "type": "Artifacts",
+      "motif": "器",
+      "image": "assets/cards/bacheng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Bacheng"
+    },
+    {
+      "id": "aozao_noodles",
+      "category": "Food",
+      "name": "Aozao Noodles",
+      "nameZh": "奥灶面",
+      "short": "Aozao Noodles",
+      "area": "Yushan",
+      "town": "Yushan",
+      "lat": 31.384,
+      "lng": 120.959,
+      "locationPrecision": "city anchor",
+      "imageKey": "aozao",
+      "sourceIds": [
+        "ks-food",
+        "ks-culture-policy"
+      ],
+      "summary": "A representative Kunshan noodle tradition using local ingredients and a distinctive broth.",
+      "placeId": "tinglin_garden",
+      "type": "Food",
+      "motif": "味",
+      "image": "assets/cards/aozao.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/ttxw/202407/da6fe60d561c49deadce176ec2019bfb.shtml",
+      "imageCredit": "Kunshan Government — Aozao noodles"
+    },
+    {
+      "id": "flour_june_crab",
+      "category": "Food",
+      "name": "Flour-coated June Crab",
+      "nameZh": "面拖六月黄",
+      "short": "Flour-coated June Crab",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.446,
+      "lng": 120.851,
+      "locationPrecision": "regional food anchor",
+      "imageKey": "crab",
+      "sourceIds": [
+        "ks-food"
+      ],
+      "summary": "A Jiangnan dish made with tender June crabs from the Bacheng–Yangcheng Lake area.",
+      "placeId": "bacheng_town",
+      "type": "Food",
+      "motif": "味",
+      "image": "assets/cards/june-crab.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/ttxw/202407/da6fe60d561c49deadce176ec2019bfb.shtml",
+      "imageCredit": "Kunshan Government — flour-coated June crab"
+    },
+    {
+      "id": "wansan_pork",
+      "category": "Food",
+      "name": "Wansan Pork Shank",
+      "nameZh": "万三蹄",
+      "short": "Wansan Pork Shank",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1157,
+      "lng": 120.8455,
+      "locationPrecision": "town anchor",
+      "imageKey": "wansan",
+      "sourceIds": [
+        "ks-food",
+        "ks-food-fair"
+      ],
+      "summary": "A slow-braised pork shank associated with Zhouzhuang and Shen Wansan narratives.",
+      "placeId": "shen_residence",
+      "type": "Food",
+      "motif": "味",
+      "image": "assets/cards/wansan.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/ttxw/202407/da6fe60d561c49deadce176ec2019bfb.shtml",
+      "imageCredit": "Kunshan Government — Wansan pork shank"
+    },
+    {
+      "id": "taihe_duck",
+      "category": "Food",
+      "name": "Taihe Braised Duck",
+      "nameZh": "太和爊鸭",
+      "short": "Taihe Braised Duck",
+      "area": "Zhoushi",
+      "town": "Zhoushi",
+      "lat": 31.456,
+      "lng": 120.998,
+      "locationPrecision": "town anchor",
+      "imageKey": "duck",
+      "sourceIds": [
+        "ks-food"
+      ],
+      "summary": "A documented local duck preparation traced in the official account to the Guangxu era.",
+      "placeId": "",
+      "type": "Food",
+      "motif": "味",
+      "image": "assets/cards/duck.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/ttxw/202407/da6fe60d561c49deadce176ec2019bfb.shtml",
+      "imageCredit": "Kunshan Government — Taihe braised duck"
+    },
+    {
+      "id": "jinhua_bacon",
+      "category": "Food",
+      "name": "Jinhua Village Steamed Cured Pork",
+      "nameZh": "金华村清蒸腊肉",
+      "short": "Jinhua Village Steamed Cured Pork",
+      "area": "Zhangpu",
+      "town": "Zhangpu",
+      "lat": 31.26,
+      "lng": 120.905,
+      "locationPrecision": "village-area anchor",
+      "imageKey": "wansan",
+      "sourceIds": [
+        "ks-food",
+        "ks-villages"
+      ],
+      "summary": "A preserved-pork tradition associated with Jinhua Village and included in Kunshan's fifth ICH batch.",
+      "placeId": "",
+      "type": "Food",
+      "motif": "味",
+      "image": "assets/cards/wansan.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/ttxw/202407/da6fe60d561c49deadce176ec2019bfb.shtml",
+      "imageCredit": "Kunshan Government — Wansan pork shank"
+    },
+    {
+      "id": "hairy_crab",
+      "category": "Food",
+      "name": "Yangcheng Lake Hairy Crab",
+      "nameZh": "阳澄湖大闸蟹",
+      "short": "Yangcheng Lake Hairy Crab",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.446,
+      "lng": 120.851,
+      "locationPrecision": "regional food anchor",
+      "imageKey": "crab",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A well-known Bacheng specialty linked to Yangcheng Lake.",
+      "placeId": "bacheng_town",
+      "type": "Food",
+      "motif": "味",
+      "image": "assets/cards/june-crab.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/ttxw/202407/da6fe60d561c49deadce176ec2019bfb.shtml",
+      "imageCredit": "Kunshan Government — flour-coated June crab"
+    },
+    {
+      "id": "sock_bottom_pastry",
+      "category": "Food",
+      "name": "Sock-bottom Pastry",
+      "nameZh": "袜底酥",
+      "short": "Sock-bottom Pastry",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.1787,
+      "lng": 120.9076,
+      "locationPrecision": "town anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-culture-policy"
+      ],
+      "summary": "A crisp pastry associated with Jinxi food culture.",
+      "placeId": "jinxi_town",
+      "type": "Food",
+      "motif": "味",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "zhengyi_qingtuan",
+      "category": "Food",
+      "name": "Zhengyi Green Rice Dumpling",
+      "nameZh": "正仪青团",
+      "short": "Zhengyi Green Rice Dumpling",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.407,
+      "lng": 120.87,
+      "locationPrecision": "town-area anchor",
+      "imageKey": "bacheng",
+      "sourceIds": [
+        "ks-food-fair"
+      ],
+      "summary": "A green rice dumpling named in official Kunshan food-promotion material.",
+      "placeId": "bacheng_town",
+      "type": "Food",
+      "motif": "味",
+      "image": "assets/cards/bacheng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Bacheng"
+    },
+    {
+      "id": "bubble_wonton",
+      "category": "Food",
+      "name": "Old-street Bubble Wonton",
+      "nameZh": "老街泡泡馄饨",
+      "short": "Old-street Bubble Wonton",
+      "area": "Dianshanhu",
+      "town": "Dianshanhu",
+      "lat": 31.17,
+      "lng": 121.005,
+      "locationPrecision": "town anchor",
+      "imageKey": "tianfu",
+      "sourceIds": [
+        "ks-wonton"
+      ],
+      "summary": "Very thin-skinned handmade wontons documented on Dianshanhu old street.",
+      "placeId": "dianshan_lake",
+      "type": "Food",
+      "motif": "味",
+      "image": "assets/cards/tianfu.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Tianfu Ecological Garden"
+    },
+    {
+      "id": "apo_pickles",
+      "category": "Food",
+      "name": "Zhenfeng Granny Pickles",
+      "nameZh": "贞丰阿婆菜",
+      "short": "Zhenfeng Granny Pickles",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1168,
+      "lng": 120.8468,
+      "locationPrecision": "town anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-food-fair"
+      ],
+      "summary": "A preserved vegetable food associated with Zhouzhuang's Zhenfeng area.",
+      "placeId": "zhenfeng_street",
+      "type": "Food",
+      "motif": "味",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "sealed_wine",
+      "category": "Food",
+      "name": "Zhouzhuang Sealed Wine",
+      "nameZh": "周庄封坛酒",
+      "short": "Zhouzhuang Sealed Wine",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.119,
+      "lng": 120.846,
+      "locationPrecision": "town anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "summary": "A rice wine linked to Zhouzhuang's documented sealed-wine brewing craft.",
+      "placeId": "zhouzhuang_town",
+      "type": "Food",
+      "motif": "味",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "copper_goose",
+      "category": "Food",
+      "name": "Copper-basin Braised Goose",
+      "nameZh": "铜盆红烧老鹅",
+      "short": "Copper-basin Braised Goose",
+      "area": "Yushan",
+      "town": "Yushan",
+      "lat": 31.39,
+      "lng": 120.95,
+      "locationPrecision": "district anchor",
+      "imageKey": "wansan",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "summary": "A traditional goose dish slow-cooked in a specially used copper basin.",
+      "placeId": "",
+      "type": "Food",
+      "motif": "味",
+      "image": "assets/cards/wansan.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/ttxw/202407/da6fe60d561c49deadce176ec2019bfb.shtml",
+      "imageCredit": "Kunshan Government — Wansan pork shank"
+    },
+    {
+      "id": "kunqu_opera",
+      "category": "Traditions",
+      "name": "Kunqu Opera",
+      "nameZh": "昆曲",
+      "short": "Kunqu Opera",
+      "area": "Kunshan",
+      "town": "Kunshan",
+      "lat": 31.3847,
+      "lng": 120.9818,
+      "locationPrecision": "city cultural anchor",
+      "imageKey": "kunqu",
+      "sourceIds": [
+        "unesco-kunqu",
+        "ks-culture-policy"
+      ],
+      "summary": "An internationally recognised opera tradition that developed in the Kunshan region.",
+      "placeId": "opera_museum",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/kunqu.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Kunqu_-_Dan.jpg",
+      "imageCredit": "Wikimedia Commons — Kunqu performer photograph"
+    },
+    {
+      "id": "jinxi_xuanjuan",
+      "category": "Traditions",
+      "name": "Jinxi Xuanjuan",
+      "nameZh": "锦溪宣卷",
+      "short": "Jinxi Xuanjuan",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.1784,
+      "lng": 120.908,
+      "locationPrecision": "associated-site anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-culture-policy",
+        "ks-villages"
+      ],
+      "summary": "A local narrative-singing tradition associated with Jinxi.",
+      "placeId": "jinxi_ballad_center",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "qiandeng_tea",
+      "category": "Traditions",
+      "name": "Qiandeng Springboard Tea",
+      "nameZh": "千灯跳板茶",
+      "short": "Qiandeng Springboard Tea",
+      "area": "Qiandeng",
+      "town": "Qiandeng",
+      "lat": 31.26,
+      "lng": 121.0032,
+      "locationPrecision": "town anchor",
+      "imageKey": "qiandeng",
+      "sourceIds": [
+        "ks-culture-policy"
+      ],
+      "summary": "A tea custom named in Kunshan's cultural planning material.",
+      "placeId": "qiandeng_town",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/qiandeng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Qiandeng"
+    },
+    {
+      "id": "kunbei_song",
+      "category": "Traditions",
+      "name": "Northern Kunshan Folk Songs",
+      "nameZh": "昆北民歌",
+      "short": "Northern Kunshan Folk Songs",
+      "area": "Northern Kunshan",
+      "town": "Northern Kunshan",
+      "lat": 31.47,
+      "lng": 120.96,
+      "locationPrecision": "regional anchor",
+      "imageKey": "forest",
+      "sourceIds": [
+        "ks-culture-policy"
+      ],
+      "summary": "A folk-song tradition associated with northern Kunshan.",
+      "placeId": "",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/forest.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Forest Park"
+    },
+    {
+      "id": "lujia_dragon",
+      "category": "Traditions",
+      "name": "Lujia Duan Dragon Dance",
+      "nameZh": "陆家段龙舞",
+      "short": "Lujia Duan Dragon Dance",
+      "area": "Lujia",
+      "town": "Lujia",
+      "lat": 31.319,
+      "lng": 121.051,
+      "locationPrecision": "town anchor",
+      "imageKey": "qiandeng",
+      "sourceIds": [
+        "ks-culture-policy"
+      ],
+      "summary": "A segmented-dragon dance tradition associated with Lujia.",
+      "placeId": "",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/qiandeng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Qiandeng"
+    },
+    {
+      "id": "huaqiao_sizhu",
+      "category": "Traditions",
+      "name": "Huaqiao Jiangnan Sizhu",
+      "nameZh": "花桥江南丝竹",
+      "short": "Huaqiao Jiangnan Sizhu",
+      "area": "Huaqiao",
+      "town": "Huaqiao",
+      "lat": 31.3,
+      "lng": 121.11,
+      "locationPrecision": "town anchor",
+      "imageKey": "tianfu",
+      "sourceIds": [
+        "ks-culture-policy"
+      ],
+      "summary": "A Jiangnan silk-and-bamboo ensemble music tradition associated with Huaqiao.",
+      "placeId": "tianfu_garden",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/tianfu.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Tianfu Ecological Garden"
+    },
+    {
+      "id": "xu_massage",
+      "category": "Traditions",
+      "name": "Xu-style Massage",
+      "nameZh": "徐氏推拿技艺",
+      "short": "Xu-style Massage",
+      "area": "Yushan",
+      "town": "Yushan",
+      "lat": 31.39,
+      "lng": 120.95,
+      "locationPrecision": "district anchor",
+      "imageKey": "tinglin",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "summary": "A traditional medical practice listed in Kunshan's sixth ICH batch.",
+      "placeId": "",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/tinglin.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Tinglin Garden"
+    },
+    {
+      "id": "zhoushi_stucco",
+      "category": "Traditions",
+      "name": "Zhoushi Stucco Modelling",
+      "nameZh": "堆塑技艺",
+      "short": "Zhoushi Stucco Modelling",
+      "area": "Zhoushi",
+      "town": "Zhoushi",
+      "lat": 31.456,
+      "lng": 120.998,
+      "locationPrecision": "town anchor",
+      "imageKey": "forest",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "summary": "An architectural decoration craft using lime paste, straw fibre, modelling and colour.",
+      "placeId": "",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/forest.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Forest Park"
+    },
+    {
+      "id": "lujia_papercut",
+      "category": "Traditions",
+      "name": "Kunshan Paper-cutting",
+      "nameZh": "昆山剪纸",
+      "short": "Kunshan Paper-cutting",
+      "area": "Lujia",
+      "town": "Lujia",
+      "lat": 31.319,
+      "lng": 121.051,
+      "locationPrecision": "town anchor",
+      "imageKey": "qiandeng",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "summary": "A fine-lined paper-cutting tradition related to embroidery pattern vocabularies.",
+      "placeId": "",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/qiandeng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Qiandeng"
+    },
+    {
+      "id": "kunshan_rope_knot",
+      "category": "Traditions",
+      "name": "Kunshan Rope Knotting",
+      "nameZh": "昆山绳结",
+      "short": "Kunshan Rope Knotting",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.4528,
+      "lng": 120.884,
+      "locationPrecision": "town anchor",
+      "imageKey": "bacheng",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "summary": "A hand-weaving practice that recombines practical Chinese knots into decorative forms.",
+      "placeId": "bacheng_town",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/bacheng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Bacheng"
+    },
+    {
+      "id": "sealed_wine_craft",
+      "category": "Traditions",
+      "name": "Sealed-wine Brewing Craft",
+      "nameZh": "周庄封坛酒酿造技艺",
+      "short": "Sealed-wine Brewing Craft",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.119,
+      "lng": 120.846,
+      "locationPrecision": "town anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "summary": "A Zhouzhuang rice-wine craft using local grain and water, with a documented wall-resting method.",
+      "placeId": "zhouzhuang_town",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "spring_ox",
+      "category": "Traditions",
+      "name": "Spring Ox Custom",
+      "nameZh": "打春牛",
+      "short": "Spring Ox Custom",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1138,
+      "lng": 120.8501,
+      "locationPrecision": "town anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "summary": "A Zhouzhuang folk custom listed in Kunshan's sixth ICH batch.",
+      "placeId": "zhouzhuang_town",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "round_woodcraft",
+      "category": "Traditions",
+      "name": "Water-town Round Woodcraft",
+      "nameZh": "水乡圆作工艺",
+      "short": "Water-town Round Woodcraft",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.1768,
+      "lng": 120.91,
+      "locationPrecision": "town anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "summary": "A Jinxi woodworking tradition for round-form timber construction and objects.",
+      "placeId": "jinxi_town",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "longxing_qigong",
+      "category": "Traditions",
+      "name": "Longxing Fitness Practice",
+      "nameZh": "龙行健身功",
+      "short": "Longxing Fitness Practice",
+      "area": "Kunshan",
+      "town": "Kunshan",
+      "lat": 31.38,
+      "lng": 120.98,
+      "locationPrecision": "city anchor",
+      "imageKey": "forest",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "summary": "A traditional physical practice listed in Kunshan's sixth ICH batch.",
+      "placeId": "",
+      "type": "Traditions",
+      "motif": "艺",
+      "image": "assets/cards/forest.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Forest Park"
+    },
+    {
+      "id": "shen_wansan_story",
+      "category": "Stories",
+      "name": "Shen Wansan and Zhouzhuang",
+      "nameZh": "沈万三与周庄",
+      "short": "Shen Wansan and Zhouzhuang",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1157,
+      "lng": 120.8455,
+      "locationPrecision": "associated-site anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-food"
+      ],
+      "summary": "A place-linked narrative connecting Shen Wansan, his former residence and Zhouzhuang food culture.",
+      "placeId": "shen_residence",
+      "type": "Stories",
+      "motif": "故",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "concubine_story",
+      "category": "Stories",
+      "name": "The Concubine's Water Tomb",
+      "nameZh": "陈妃水冢故事",
+      "short": "The Concubine's Water Tomb",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.1796,
+      "lng": 120.9058,
+      "locationPrecision": "associated-site anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A locally presented narrative linking Jinxi's water landscape with an emperor and his concubine.",
+      "placeId": "concubine_tomb",
+      "type": "Stories",
+      "motif": "故",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "gu_yanwu_story",
+      "category": "Stories",
+      "name": "Gu Yanwu of Qiandeng",
+      "nameZh": "顾炎武与千灯",
+      "short": "Gu Yanwu of Qiandeng",
+      "area": "Qiandeng",
+      "town": "Qiandeng",
+      "lat": 31.2577,
+      "lng": 121.0004,
+      "locationPrecision": "associated-site anchor",
+      "imageKey": "qiandeng",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-heritage"
+      ],
+      "summary": "Documented history connecting scholar Gu Yanwu with his Qiandeng birthplace and former residence.",
+      "placeId": "gu_yanwu_residence",
+      "type": "Stories",
+      "motif": "故",
+      "image": "assets/cards/qiandeng.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Qiandeng"
+    },
+    {
+      "id": "gu_jian_story",
+      "category": "Stories",
+      "name": "Gu Jian and Kunqu Origins",
+      "nameZh": "顾坚与昆曲源流",
+      "short": "Gu Jian and Kunqu Origins",
+      "area": "Qiandeng",
+      "town": "Qiandeng",
+      "lat": 31.2607,
+      "lng": 121.002,
+      "locationPrecision": "associated-site anchor",
+      "imageKey": "kunqu",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "Qiandeng interpretation presents Gu Jian as an important figure in Kunqu's origins.",
+      "placeId": "gu_jian_memorial",
+      "type": "Stories",
+      "motif": "故",
+      "image": "assets/cards/kunqu.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Kunqu_-_Dan.jpg",
+      "imageCredit": "Wikimedia Commons — Kunqu performer photograph"
+    },
+    {
+      "id": "jinxi_name_story",
+      "category": "Stories",
+      "name": "How Jinxi Received Its Name",
+      "nameZh": "锦溪地名故事",
+      "short": "How Jinxi Received Its Name",
+      "area": "Jinxi",
+      "town": "Jinxi",
+      "lat": 31.1787,
+      "lng": 120.9076,
+      "locationPrecision": "town anchor",
+      "imageKey": "jinxi",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "The official tourism account relates the name Jinxi to light on a peach-lined river.",
+      "placeId": "jinxi_town",
+      "type": "Stories",
+      "motif": "故",
+      "image": "assets/cards/jinxi.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Jinxi"
+    },
+    {
+      "id": "zhouzhuang_water_story",
+      "category": "Stories",
+      "name": "A Town Shaped by Water",
+      "nameZh": "水乡周庄",
+      "short": "A Town Shaped by Water",
+      "area": "Zhouzhuang",
+      "town": "Zhouzhuang",
+      "lat": 31.1168,
+      "lng": 120.8468,
+      "locationPrecision": "town anchor",
+      "imageKey": "zhouzhuang",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "summary": "A documented spatial story of canals, historic bridges and riverside residences.",
+      "placeId": "zhouzhuang_town",
+      "type": "Stories",
+      "motif": "故",
+      "image": "assets/cards/zhouzhuang.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    {
+      "id": "three_treasures_story",
+      "category": "Stories",
+      "name": "The Three Treasures of Kunshan",
+      "nameZh": "昆山三宝",
+      "short": "The Three Treasures of Kunshan",
+      "area": "Yushan",
+      "town": "Yushan",
+      "lat": 31.3864,
+      "lng": 120.9486,
+      "locationPrecision": "associated-site anchor",
+      "imageKey": "tinglin",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-tinglin"
+      ],
+      "summary": "Tinglin Garden presents Kun stone, viburnum and twin lotus as Kunshan's three treasures.",
+      "placeId": "tinglin_garden",
+      "type": "Stories",
+      "motif": "故",
+      "image": "assets/cards/tinglin.jpg",
+      "imageSource": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "imageCredit": "Kunshan Government tourism page — Tinglin Garden"
+    },
+    {
+      "id": "opera_city_story",
+      "category": "Stories",
+      "name": "348 Opera Genres in One Museum",
+      "nameZh": "百戏汇昆山",
+      "short": "348 Opera Genres in One Museum",
+      "area": "Bacheng",
+      "town": "Bacheng",
+      "lat": 31.4543,
+      "lng": 120.8802,
+      "locationPrecision": "associated-site anchor",
+      "imageKey": "kunqu",
+      "sourceIds": [
+        "ks-opera-museum"
+      ],
+      "summary": "The Opera Hundred Plays Museum frames Kunshan as a meeting place for hundreds of Chinese opera genres.",
+      "placeId": "opera_museum",
+      "type": "Stories",
+      "motif": "故",
+      "image": "assets/cards/kunqu.jpg",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Kunqu_-_Dan.jpg",
+      "imageCredit": "Wikimedia Commons — Kunqu performer photograph"
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel_1",
+      "a": "twin_bridges",
+      "b": "zhouzhuang_town",
+      "label": "Part of the same place system",
+      "summary": "Twin Bridges is documented in relation to Zhouzhuang Ancient Town. A paired bridge landmark within Zhouzhuang's canal network.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_2",
+      "a": "zhang_hall",
+      "b": "zhouzhuang_town",
+      "label": "Part of the same place system",
+      "summary": "Zhang's Hall is documented in relation to Zhouzhuang Ancient Town. A recommended historic residence in Zhouzhuang.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_3",
+      "a": "shen_hall",
+      "b": "zhouzhuang_town",
+      "label": "Part of the same place system",
+      "summary": "Shen's Hall is documented in relation to Zhouzhuang Ancient Town. A recommended historic residence associated with the Shen family.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_4",
+      "a": "zhenfeng_street",
+      "b": "zhouzhuang_town",
+      "label": "Part of the same place system",
+      "summary": "Zhenfeng Cultural Street is documented in relation to Zhouzhuang Ancient Town. A named cultural street in Zhouzhuang.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_5",
+      "a": "shen_residence",
+      "b": "zhouzhuang_town",
+      "label": "Part of the same place system",
+      "summary": "Former Residence of Shen Wansan is documented in relation to Zhouzhuang Ancient Town. A visitor site interpreting Shen Wansan in Zhouzhuang.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_6",
+      "a": "chengxu_temple",
+      "b": "zhouzhuang_town",
+      "label": "Part of the same place system",
+      "summary": "Chengxu Taoist Temple is documented in relation to Zhouzhuang Ancient Town. A Taoist temple listed among Zhouzhuang's recommended sites.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_7",
+      "a": "old_opera_stage",
+      "b": "zhouzhuang_town",
+      "label": "Part of the same place system",
+      "summary": "Old Drama Stage is documented in relation to Zhouzhuang Ancient Town. A performance site in Zhouzhuang's historic area.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_8",
+      "a": "ancient_tile_museum",
+      "b": "jinxi_town",
+      "label": "Part of the same place system",
+      "summary": "Chinese Ancient Brick and Tile Museum is documented in relation to Jinxi Ancient Town. Museum interpreting historic bricks, tiles and kiln culture.",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-culture-policy"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_9",
+      "a": "clay_sculpture_hall",
+      "b": "jinxi_town",
+      "label": "Part of the same place system",
+      "summary": "Maruote Clay Sculpture Hall is documented in relation to Jinxi Ancient Town. A folk-museum venue dedicated to clay sculpture.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_10",
+      "a": "jinxi_ballad_center",
+      "b": "jinxi_town",
+      "label": "Part of the same place system",
+      "summary": "Jinxi Ballad Art Center is documented in relation to Jinxi Ancient Town. A venue connected with Jinxi narrative-singing culture.",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-culture-policy"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_11",
+      "a": "lianchi_temple",
+      "b": "jinxi_town",
+      "label": "Part of the same place system",
+      "summary": "Lianchi Temple is documented in relation to Jinxi Ancient Town. A temple listed among Jinxi's recommended sites.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_12",
+      "a": "concubine_tomb",
+      "b": "jinxi_town",
+      "label": "Part of the same place system",
+      "summary": "Concubine's Water Tomb is documented in relation to Jinxi Ancient Town. A water-set memorial site central to one of Jinxi's best-known narratives.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_13",
+      "a": "wenchang_pavilion",
+      "b": "jinxi_town",
+      "label": "Part of the same place system",
+      "summary": "Wenchang Pavilion is documented in relation to Jinxi Ancient Town. A pavilion in the Jinxi historic area.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_14",
+      "a": "stone_street",
+      "b": "qiandeng_town",
+      "label": "Part of the same place system",
+      "summary": "Ancient Flagstone Street is documented in relation to Qiandeng Ancient Town. A 1,500-metre street lined with historic residences.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_15",
+      "a": "gu_yanwu_residence",
+      "b": "qiandeng_town",
+      "label": "Part of the same place system",
+      "summary": "Former Residence of Gu Yanwu is documented in relation to Qiandeng Ancient Town. Nationally protected former residence linked to scholar Gu Yanwu.",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-heritage"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_16",
+      "a": "gu_jian_memorial",
+      "b": "qiandeng_town",
+      "label": "Part of the same place system",
+      "summary": "Gu Jian Memorial Hall is documented in relation to Qiandeng Ancient Town. A memorial venue presenting Gu Jian and Kunqu origins.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_17",
+      "a": "qinfeng_tower",
+      "b": "qiandeng_town",
+      "label": "Part of the same place system",
+      "summary": "Qinfeng Tower and Yanfu Temple is documented in relation to Qiandeng Ancient Town. A nationally protected pagoda and temple complex in Qiandeng.",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-heritage"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_18",
+      "a": "qiandeng_hall",
+      "b": "qiandeng_town",
+      "label": "Part of the same place system",
+      "summary": "Qiandeng Hall is documented in relation to Qiandeng Ancient Town. A recommended cultural venue in Qiandeng.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_19",
+      "a": "bajie_park",
+      "b": "bacheng_town",
+      "label": "Part of the same place system",
+      "summary": "Bajie Park is documented in relation to Bacheng Ancient Town. A Bacheng destination connected with local crab culture.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_20",
+      "a": "chongning_temple",
+      "b": "bacheng_town",
+      "label": "Part of the same place system",
+      "summary": "Chongning Temple is documented in relation to Bacheng Ancient Town. A temple listed among Bacheng's visitor destinations.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_21",
+      "a": "yangcheng_wetland",
+      "b": "bacheng_town",
+      "label": "Part of the same place system",
+      "summary": "Yangcheng Lake Wetland Park is documented in relation to Bacheng Ancient Town. Wetland destination beside Yangcheng Lake.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_22",
+      "a": "liurudun",
+      "b": "dianshan_lake",
+      "label": "Part of the same place system",
+      "summary": "Liurudun is documented in relation to Dianshan Lake. A named Dianshanhu destination also included in the protected place-name list.",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-place-names"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_23",
+      "a": "yuyantang",
+      "b": "zhouzhuang_town",
+      "label": "Part of the same place system",
+      "summary": "Yuyan Hall is documented in relation to Zhouzhuang Ancient Town. A nationally protected historic hall.",
+      "sourceIds": [
+        "ks-heritage",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_24",
+      "a": "jingyetang",
+      "b": "zhouzhuang_town",
+      "label": "Part of the same place system",
+      "summary": "Jingye Hall is documented in relation to Zhouzhuang Ancient Town. A nationally protected historic hall.",
+      "sourceIds": [
+        "ks-heritage",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_25",
+      "a": "yulong_bridge",
+      "b": "zhouzhuang_town",
+      "label": "Part of the same place system",
+      "summary": "Yulong Bridge is documented in relation to Zhouzhuang Ancient Town. A provincially protected historic bridge.",
+      "sourceIds": [
+        "ks-heritage",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_26",
+      "a": "kunshan_stone",
+      "b": "tinglin_garden",
+      "label": "Material culture and place",
+      "summary": "Kunshan Stone is documented in relation to Tinglin Garden. One of the three treasures displayed and interpreted at Tinglin Garden.",
+      "sourceIds": [
+        "ks-tinglin",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_27",
+      "a": "ancient_tiles",
+      "b": "ancient_tile_museum",
+      "label": "Material culture and place",
+      "summary": "Ancient Bricks and Tiles is documented in relation to Chinese Ancient Brick and Tile Museum. Architectural materials preserved and interpreted through Jinxi's museum collections.",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-culture-policy"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_28",
+      "a": "kiln_bricks",
+      "b": "zhudian_kiln",
+      "label": "Material culture and place",
+      "summary": "Zhudian Kiln Bricks is documented in relation to Zhudian Ancient Brick Kiln. Brick products and kiln traces used to interpret local production history.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_29",
+      "a": "opera_costume",
+      "b": "opera_museum",
+      "label": "Material culture and place",
+      "summary": "Opera Costume Collection is documented in relation to Opera Hundred Plays Museum. Performance costumes represented within the Opera Hundred Plays Museum collection.",
+      "sourceIds": [
+        "ks-opera-museum",
+        "ks-villages"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_30",
+      "a": "opera_objects",
+      "b": "opera_museum",
+      "label": "Material culture and place",
+      "summary": "Opera Objects and Documents is documented in relation to Opera Hundred Plays Museum. Part of a museum collection built from more than 4,000 donated objects.",
+      "sourceIds": [
+        "ks-opera-museum",
+        "ks-villages"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_31",
+      "a": "clay_sculpture",
+      "b": "clay_sculpture_hall",
+      "label": "Material culture and place",
+      "summary": "Clay Sculpture is documented in relation to Maruote Clay Sculpture Hall. Material folk art interpreted at the Maruote Clay Sculpture Hall.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_32",
+      "a": "paper_cut_object",
+      "b": "lujia_papercut",
+      "label": "Material culture and place",
+      "summary": "Kunshan Paper-cut Work is documented in relation to Kunshan Paper-cutting. A finished paper-cut work associated with the locally listed craft tradition.",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_33",
+      "a": "rope_knot_object",
+      "b": "kunshan_rope_knot",
+      "label": "Material culture and place",
+      "summary": "Kunshan Knotwork Object is documented in relation to Kunshan Rope Knotting. A hand-woven knotwork object created from recombined practical Chinese-knot structures.",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_34",
+      "a": "aozao_noodles",
+      "b": "tinglin_garden",
+      "label": "Local food and place",
+      "summary": "Aozao Noodles is documented in relation to Tinglin Garden. A representative Kunshan noodle tradition using local ingredients and a distinctive broth.",
+      "sourceIds": [
+        "ks-food",
+        "ks-culture-policy",
+        "ks-tourism",
+        "ks-tinglin"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_35",
+      "a": "flour_june_crab",
+      "b": "bacheng_town",
+      "label": "Local food and place",
+      "summary": "Flour-coated June Crab is documented in relation to Bacheng Ancient Town. A Jiangnan dish made with tender June crabs from the Bacheng–Yangcheng Lake area.",
+      "sourceIds": [
+        "ks-food",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_36",
+      "a": "wansan_pork",
+      "b": "shen_residence",
+      "label": "Local food and place",
+      "summary": "Wansan Pork Shank is documented in relation to Former Residence of Shen Wansan. A slow-braised pork shank associated with Zhouzhuang and Shen Wansan narratives.",
+      "sourceIds": [
+        "ks-food",
+        "ks-food-fair",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_37",
+      "a": "hairy_crab",
+      "b": "bacheng_town",
+      "label": "Local food and place",
+      "summary": "Yangcheng Lake Hairy Crab is documented in relation to Bacheng Ancient Town. A well-known Bacheng specialty linked to Yangcheng Lake.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_38",
+      "a": "sock_bottom_pastry",
+      "b": "jinxi_town",
+      "label": "Local food and place",
+      "summary": "Sock-bottom Pastry is documented in relation to Jinxi Ancient Town. A crisp pastry associated with Jinxi food culture.",
+      "sourceIds": [
+        "ks-culture-policy",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_39",
+      "a": "zhengyi_qingtuan",
+      "b": "bacheng_town",
+      "label": "Local food and place",
+      "summary": "Zhengyi Green Rice Dumpling is documented in relation to Bacheng Ancient Town. A green rice dumpling named in official Kunshan food-promotion material.",
+      "sourceIds": [
+        "ks-food-fair",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_40",
+      "a": "bubble_wonton",
+      "b": "dianshan_lake",
+      "label": "Local food and place",
+      "summary": "Old-street Bubble Wonton is documented in relation to Dianshan Lake. Very thin-skinned handmade wontons documented on Dianshanhu old street.",
+      "sourceIds": [
+        "ks-wonton",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_41",
+      "a": "apo_pickles",
+      "b": "zhenfeng_street",
+      "label": "Local food and place",
+      "summary": "Zhenfeng Granny Pickles is documented in relation to Zhenfeng Cultural Street. A preserved vegetable food associated with Zhouzhuang's Zhenfeng area.",
+      "sourceIds": [
+        "ks-food-fair",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_42",
+      "a": "sealed_wine",
+      "b": "zhouzhuang_town",
+      "label": "Local food and place",
+      "summary": "Zhouzhuang Sealed Wine is documented in relation to Zhouzhuang Ancient Town. A rice wine linked to Zhouzhuang's documented sealed-wine brewing craft.",
+      "sourceIds": [
+        "ks-ich6",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_43",
+      "a": "kunqu_opera",
+      "b": "opera_museum",
+      "label": "Living tradition and place",
+      "summary": "Kunqu Opera is documented in relation to Opera Hundred Plays Museum. An internationally recognised opera tradition that developed in the Kunshan region.",
+      "sourceIds": [
+        "unesco-kunqu",
+        "ks-culture-policy",
+        "ks-opera-museum",
+        "ks-villages"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_44",
+      "a": "jinxi_xuanjuan",
+      "b": "jinxi_ballad_center",
+      "label": "Living tradition and place",
+      "summary": "Jinxi Xuanjuan is documented in relation to Jinxi Ballad Art Center. A local narrative-singing tradition associated with Jinxi.",
+      "sourceIds": [
+        "ks-culture-policy",
+        "ks-villages",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_45",
+      "a": "qiandeng_tea",
+      "b": "qiandeng_town",
+      "label": "Living tradition and place",
+      "summary": "Qiandeng Springboard Tea is documented in relation to Qiandeng Ancient Town. A tea custom named in Kunshan's cultural planning material.",
+      "sourceIds": [
+        "ks-culture-policy",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_46",
+      "a": "huaqiao_sizhu",
+      "b": "tianfu_garden",
+      "label": "Living tradition and place",
+      "summary": "Huaqiao Jiangnan Sizhu is documented in relation to Tianfu Ecological Garden. A Jiangnan silk-and-bamboo ensemble music tradition associated with Huaqiao.",
+      "sourceIds": [
+        "ks-culture-policy",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_47",
+      "a": "kunshan_rope_knot",
+      "b": "bacheng_town",
+      "label": "Living tradition and place",
+      "summary": "Kunshan Rope Knotting is documented in relation to Bacheng Ancient Town. A hand-weaving practice that recombines practical Chinese knots into decorative forms.",
+      "sourceIds": [
+        "ks-ich6",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_48",
+      "a": "sealed_wine_craft",
+      "b": "zhouzhuang_town",
+      "label": "Living tradition and place",
+      "summary": "Sealed-wine Brewing Craft is documented in relation to Zhouzhuang Ancient Town. A Zhouzhuang rice-wine craft using local grain and water, with a documented wall-resting method.",
+      "sourceIds": [
+        "ks-ich6",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_49",
+      "a": "spring_ox",
+      "b": "zhouzhuang_town",
+      "label": "Living tradition and place",
+      "summary": "Spring Ox Custom is documented in relation to Zhouzhuang Ancient Town. A Zhouzhuang folk custom listed in Kunshan's sixth ICH batch.",
+      "sourceIds": [
+        "ks-ich6",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_50",
+      "a": "round_woodcraft",
+      "b": "jinxi_town",
+      "label": "Living tradition and place",
+      "summary": "Water-town Round Woodcraft is documented in relation to Jinxi Ancient Town. A Jinxi woodworking tradition for round-form timber construction and objects.",
+      "sourceIds": [
+        "ks-ich6",
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_51",
+      "a": "shen_wansan_story",
+      "b": "shen_residence",
+      "label": "Place and documented memory",
+      "summary": "Shen Wansan and Zhouzhuang is documented in relation to Former Residence of Shen Wansan. A place-linked narrative connecting Shen Wansan, his former residence and Zhouzhuang food culture.",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-food"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_52",
+      "a": "concubine_story",
+      "b": "concubine_tomb",
+      "label": "Place and documented memory",
+      "summary": "The Concubine's Water Tomb is documented in relation to Concubine's Water Tomb. A locally presented narrative linking Jinxi's water landscape with an emperor and his concubine.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_53",
+      "a": "gu_yanwu_story",
+      "b": "gu_yanwu_residence",
+      "label": "Place and documented memory",
+      "summary": "Gu Yanwu of Qiandeng is documented in relation to Former Residence of Gu Yanwu. Documented history connecting scholar Gu Yanwu with his Qiandeng birthplace and former residence.",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-heritage"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_54",
+      "a": "gu_jian_story",
+      "b": "gu_jian_memorial",
+      "label": "Place and documented memory",
+      "summary": "Gu Jian and Kunqu Origins is documented in relation to Gu Jian Memorial Hall. Qiandeng interpretation presents Gu Jian as an important figure in Kunqu's origins.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_55",
+      "a": "jinxi_name_story",
+      "b": "jinxi_town",
+      "label": "Place and documented memory",
+      "summary": "How Jinxi Received Its Name is documented in relation to Jinxi Ancient Town. The official tourism account relates the name Jinxi to light on a peach-lined river.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_56",
+      "a": "zhouzhuang_water_story",
+      "b": "zhouzhuang_town",
+      "label": "Place and documented memory",
+      "summary": "A Town Shaped by Water is documented in relation to Zhouzhuang Ancient Town. A documented spatial story of canals, historic bridges and riverside residences.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_57",
+      "a": "three_treasures_story",
+      "b": "tinglin_garden",
+      "label": "Place and documented memory",
+      "summary": "The Three Treasures of Kunshan is documented in relation to Tinglin Garden. Tinglin Garden presents Kun stone, viburnum and twin lotus as Kunshan's three treasures.",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-tinglin"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_58",
+      "a": "opera_city_story",
+      "b": "opera_museum",
+      "label": "Place and documented memory",
+      "summary": "348 Opera Genres in One Museum is documented in relation to Opera Hundred Plays Museum. The Opera Hundred Plays Museum frames Kunshan as a meeting place for hundreds of Chinese opera genres.",
+      "sourceIds": [
+        "ks-opera-museum",
+        "ks-villages"
+      ],
+      "strength": "Official source association"
+    },
+    {
+      "id": "rel_59",
+      "a": "kunqu_opera",
+      "b": "gu_jian_story",
+      "label": "Origins and performance tradition",
+      "summary": "Qiandeng interpretation of Gu Jian provides a place-based route into the history of Kunqu.",
+      "sourceIds": [
+        "unesco-kunqu",
+        "ks-culture-policy",
+        "ks-tourism"
+      ],
+      "strength": "Cross-source association"
+    },
+    {
+      "id": "rel_60",
+      "a": "ancient_tiles",
+      "b": "zhudian_kiln",
+      "label": "From kiln production to museum collection",
+      "summary": "Jinxi's kiln landscape and brick-and-tile museum together support a material-culture connection.",
+      "sourceIds": [
+        "ks-tourism",
+        "ks-culture-policy"
+      ],
+      "strength": "Cross-source association"
+    },
+    {
+      "id": "rel_61",
+      "a": "sealed_wine",
+      "b": "sealed_wine_craft",
+      "label": "Food product and brewing practice",
+      "summary": "The sealed wine is the product of the documented Zhouzhuang brewing craft.",
+      "sourceIds": [
+        "ks-ich6"
+      ],
+      "strength": "Cross-source association"
+    },
+    {
+      "id": "rel_62",
+      "a": "wansan_pork",
+      "b": "shen_wansan_story",
+      "label": "Food and transmitted story",
+      "summary": "The official food account connects Wansan pork shank with Shen Wansan and Zhouzhuang hospitality.",
+      "sourceIds": [
+        "ks-food",
+        "ks-food-fair",
+        "ks-tourism"
+      ],
+      "strength": "Cross-source association"
+    },
+    {
+      "id": "rel_63",
+      "a": "flour_june_crab",
+      "b": "hairy_crab",
+      "label": "Seasonal crab food culture",
+      "summary": "Both fragments are tied to crab food culture in the Bacheng–Yangcheng Lake area.",
+      "sourceIds": [
+        "ks-food",
+        "ks-tourism"
+      ],
+      "strength": "Cross-source association"
+    },
+    {
+      "id": "rel_64",
+      "a": "jinxi_name_story",
+      "b": "concubine_story",
+      "label": "Two narratives of Jinxi",
+      "summary": "The official tourism account presents both the town-name explanation and the concubine narrative as ways of reading Jinxi.",
+      "sourceIds": [
+        "ks-tourism"
+      ],
+      "strength": "Cross-source association"
+    },
+    {
+      "id": "rel_65",
+      "a": "kunshan_stone",
+      "b": "three_treasures_story",
+      "label": "Object and civic cultural story",
+      "summary": "Kun stone is one of the three treasures interpreted at Tinglin Garden.",
+      "sourceIds": [
+        "ks-tinglin",
+        "ks-tourism"
+      ],
+      "strength": "Cross-source association"
+    },
+    {
+      "id": "rel_66",
+      "a": "opera_objects",
+      "b": "opera_city_story",
+      "label": "Collection and museum narrative",
+      "summary": "The donated collection supports the museum's account of 348 opera genres.",
+      "sourceIds": [
+        "ks-opera-museum"
+      ],
+      "strength": "Cross-source association"
+    },
+    {
+      "id": "rel_67",
+      "a": "aozao_noodles",
+      "b": "kunqu_opera",
+      "label": "Two distinct Kunshan cultural anchors",
+      "summary": "Official sources identify both as prominent but different parts of Kunshan culture; this is a thematic route prompt, not a causal claim.",
+      "sourceIds": [
+        "ks-food",
+        "ks-culture-policy",
+        "unesco-kunqu"
+      ],
+      "strength": "Interpretive route prompt"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ks-tourism",
+      "publisher": "Kunshan Municipal People's Government",
+      "title": "Tourism Destinations",
+      "url": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "scope": "Whole-city destinations and recommended sites in Zhouzhuang, Jinxi, Qiandeng, Bacheng, Dianshanhu, Zhangpu, Huaqiao and central Kunshan."
+    },
+    {
+      "id": "ks-ich6",
+      "publisher": "Kunshan Municipal People's Government",
+      "title": "Sixth batch of representative intangible cultural heritage",
+      "url": "https://www.ks.gov.cn/kss/c112598/202406/154c05692c0e41e4b9503059cd0614b9.shtml",
+      "scope": "Nine named living-heritage practices, categories, declaring areas, protection units and official introductions."
+    },
+    {
+      "id": "ks-place-names",
+      "publisher": "Kunshan Municipal People's Government",
+      "title": "Third batch of Wu-culture protected place names",
+      "url": "https://www.ks.gov.cn/kss/c112598/202411/f07e2e41857040d7a1920a6353aeb24c.shtml",
+      "scope": "Official 212-name list covering natural features, settlements, roads, bridges, memorials and visitor places."
+    },
+    {
+      "id": "ks-heritage",
+      "publisher": "Kunshan Municipal People's Government",
+      "title": "Cultural relic protection overview",
+      "url": "https://www.ks.gov.cn/kss/c113206pu/202206/c405f8247cc64b2bb8b1e10d1dd01433.shtml",
+      "scope": "Counts and names of national and provincial protected cultural relic units."
+    },
+    {
+      "id": "ks-buildings6",
+      "publisher": "Kunshan Municipal People's Government",
+      "title": "Sixth batch of cultural relic units and second batch of controlled buildings",
+      "url": "https://data.ks.gov.cn/kss/whzc/202003/5cb76caf7f674f2ab395fcbdcc5dbe9b.shtml",
+      "scope": "Eleven cultural relic units and five controlled historic buildings."
+    },
+    {
+      "id": "ks-villages",
+      "publisher": "Kunshan Municipal People's Government",
+      "title": "Traditional village protection programme",
+      "url": "https://data.ks.gov.cn/kss/ghjh/202406/7392d5f1b13144459869fbec5c2a5a54/files/c725f479bee54e6faa6e5762d66630d3.pdf",
+      "scope": "Traditional villages, documented ICH coverage, fifth-batch projects and the Opera Hundred Plays Museum."
+    },
+    {
+      "id": "ks-food",
+      "publisher": "Kunshan Municipal People's Government",
+      "title": "Five award-winning Kunshan foods",
+      "url": "https://www.ks.gov.cn/kss/ttxw/202407/da6fe60d561c49deadce176ec2019bfb.shtml",
+      "scope": "Official descriptions of Aozao noodles, flour-coated June crab, Wansan pork shank, Taihe braised duck and Jinhua cured pork."
+    },
+    {
+      "id": "ks-wonton",
+      "publisher": "Kunshan Municipal People's Government",
+      "title": "A bowl of bubble wontons",
+      "url": "https://www.ks.gov.cn/kss/lvzx/202003/dc569bd8c1a346e8b8fa07b6deabc0fc.shtml",
+      "scope": "Dianshanhu old-street bubble wonton history and preparation."
+    },
+    {
+      "id": "ks-food-fair",
+      "publisher": "Kunshan Municipal People's Government",
+      "title": "2024 Kunshan food fair",
+      "url": "https://www.ks.gov.cn/kss/ksyw/202412/8808d9156d0f420695061e4a929cc296.shtml",
+      "scope": "Named Kunshan foods including Wansan pork shank and Zhengyi green rice dumplings."
+    },
+    {
+      "id": "ks-culture-policy",
+      "publisher": "Kunshan Municipal People's Government",
+      "title": "Tourism and cultural development plan",
+      "url": "https://www.ks.gov.cn/kss/c112598/201802/84e9f12b86e34c67940e35753455e343.shtml",
+      "scope": "Named cultural elements including Kunqu, Jinxi xuanjuan, ancient tiles, Qiandeng tea, Kunbei songs, Lujia dragon dance and Huaqiao silk-and-bamboo music."
+    },
+    {
+      "id": "ks-opera-museum",
+      "publisher": "Kunshan Municipal People's Government",
+      "title": "Opera Hundred Plays Museum",
+      "url": "https://www.ks.gov.cn/kss/ttxw/202311/c977360a7e914e0b9f0a5d5d379cdd9e.shtml",
+      "scope": "Museum opened in 2023, four permanent halls, 348 opera genres and more than 4,000 donated objects."
+    },
+    {
+      "id": "unesco-kunqu",
+      "publisher": "UNESCO",
+      "title": "Kun Qu Opera",
+      "url": "https://ich.unesco.org/en/RL/kun-qu-opera-00004",
+      "scope": "International intangible cultural heritage documentation for Kunqu opera."
+    },
+    {
+      "id": "ks-tinglin",
+      "publisher": "Kunshan Municipal People's Government",
+      "title": "Tinglin Garden",
+      "url": "https://www.ks.gov.cn/kss/zmjd/202403/8aa3e3aef8c74680805e7679031b5ab3.shtml",
+      "scope": "Tinglin Garden and the three Kunshan treasures: Kun stone, viburnum and twin lotus."
+    }
+  ],
+  "imageCatalog": {
+    "zhouzhuang": {
+      "path": "assets/cards/zhouzhuang.jpg",
+      "sourceUrl": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "credit": "Kunshan Government tourism page — Zhouzhuang"
+    },
+    "jinxi": {
+      "path": "assets/cards/jinxi.jpg",
+      "sourceUrl": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "credit": "Kunshan Government tourism page — Jinxi"
+    },
+    "qiandeng": {
+      "path": "assets/cards/qiandeng.jpg",
+      "sourceUrl": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "credit": "Kunshan Government tourism page — Qiandeng"
+    },
+    "bacheng": {
+      "path": "assets/cards/bacheng.jpg",
+      "sourceUrl": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "credit": "Kunshan Government tourism page — Bacheng"
+    },
+    "tianfu": {
+      "path": "assets/cards/tianfu.jpg",
+      "sourceUrl": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "credit": "Kunshan Government tourism page — Tianfu Ecological Garden"
+    },
+    "tinglin": {
+      "path": "assets/cards/tinglin.jpg",
+      "sourceUrl": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "credit": "Kunshan Government tourism page — Tinglin Garden"
+    },
+    "forest": {
+      "path": "assets/cards/forest.jpg",
+      "sourceUrl": "https://www.ks.gov.cn/kss/Tourism/enlist_tt_hd.shtml",
+      "credit": "Kunshan Government tourism page — Forest Park"
+    },
+    "kunqu": {
+      "path": "assets/cards/kunqu.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kunqu_-_Dan.jpg",
+      "credit": "Wikimedia Commons — Kunqu performer photograph"
+    },
+    "aozao": {
+      "path": "assets/cards/aozao.jpg",
+      "sourceUrl": "https://www.ks.gov.cn/kss/ttxw/202407/da6fe60d561c49deadce176ec2019bfb.shtml",
+      "credit": "Kunshan Government — Aozao noodles"
+    },
+    "crab": {
+      "path": "assets/cards/june-crab.jpg",
+      "sourceUrl": "https://www.ks.gov.cn/kss/ttxw/202407/da6fe60d561c49deadce176ec2019bfb.shtml",
+      "credit": "Kunshan Government — flour-coated June crab"
+    },
+    "wansan": {
+      "path": "assets/cards/wansan.jpg",
+      "sourceUrl": "https://www.ks.gov.cn/kss/ttxw/202407/da6fe60d561c49deadce176ec2019bfb.shtml",
+      "credit": "Kunshan Government — Wansan pork shank"
+    },
+    "duck": {
+      "path": "assets/cards/duck.jpg",
+      "sourceUrl": "https://www.ks.gov.cn/kss/ttxw/202407/da6fe60d561c49deadce176ec2019bfb.shtml",
+      "credit": "Kunshan Government — Taihe braised duck"
+    }
+  }
+}
